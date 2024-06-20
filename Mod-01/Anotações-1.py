@@ -27,7 +27,7 @@ valor = None
 print(None)
 print(type(None))
 
-#Aula 3 - Estudo Variáeis II
+#Aula 3 - Estudo Variáeis II - Numericos
 
 compra = 0
 compra += 1
@@ -42,8 +42,15 @@ peso = 0.5
 total = preco_kg * peso
 print(total)
 
-a = 3
-b = 2
+a = 50
+b = 3
 c = a/b
 d = a//b
-print("A divisão ")
+e = a%b
+print ("A divisão de", a, "por", b,"é:", c)
+print ("O resto dessa divisão é:", e)
+print ("E a divisão inteira é:", d)
+print(float(a)) #conversão de tipos numericos
+
+#Aula 4 - Variaveis III - Strings
+
