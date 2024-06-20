@@ -54,3 +54,18 @@ print(float(a)) #conversão de tipos numericos
 
 #Aula 4 - Variaveis III - Strings
 
+Residencia = "Casa"
+outro_nome = ""
+print (Residencia, outro_nome)
+print(type(Residencia))
+print(type(outro_nome))
+
+nome = 'Eloy'
+sobrenome = "Holzgrefe"
+print (
+"Olá, me chamo " + nome +' ' + sobrenome+ ". Qual o seu nome?"
+)
+#com a concatenação apenas junta, fica sem espaço entre as coisas
+#outra forma de fazer
+apresentacao = f"Olá, meu nome é {nome} {sobrenome}! Qual o seu nome?"
+print (apresentacao)
