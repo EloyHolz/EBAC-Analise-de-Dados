@@ -30,8 +30,9 @@ print(fab_mob)
 
 
 fab_mob_china = fab_mob[0:2]
+    #Lembrar que no fatiamento tira -1 do ultimo -> se colocar ate 8, vai pegar ate o 7 numero, pq começa no 0
 fab_mob_usa = fab_mob[2:len(fab_mob)]
-
+    #deve converter pooi sapenas pode concater strings com strings, e nao com listas, por isso que logo a baixo faz a conversao)
 print('china: ' + str(fab_mob_china))
 print('eua: ' + str(fab_mob_usa))
 
