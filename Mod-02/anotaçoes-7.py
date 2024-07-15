@@ -26,3 +26,4 @@ norte_eu_nao_escandinavo = norte_eu - escandinavia
 escandinavo_nao_norte_eu = norte_eu - escandinavia
 print(norte_eu_nao_escandinavo)
 print(escandinavo_nao_norte_eu)
+
